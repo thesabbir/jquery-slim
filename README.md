@@ -8,7 +8,7 @@ Install via [NPM](https://www.npmjs.com/package/jquery-slim)
 npm i jquery-slim --save
 ```
 
-Using with webpack:
+Using with webpack or browserify:
 
 ```js
 

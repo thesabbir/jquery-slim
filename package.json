@@ -2,11 +2,11 @@
   "name": "jquery-slim",
   "version": "3.0.0",
   "description": "Slim version of jquery that excludes ajax, effects and currently deprecated code",
-  "main": "dist/jquery.slim.js",
+  "main": "node_modules/jquery/dist/jquery.slim.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "author": {
+  "author": {
     "name": "jQuery Foundation and other contributors",
     "url": "https://github.com/jquery/jquery/blob/3.0.0/AUTHORS.txt"
   },
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/jquery/jquery/issues"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "jquery": "*"
+  }
 }
